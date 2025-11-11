@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <!-- Header -->
+    
     <header>
         <nav class="navbar">
             <a href="#" class="logo">WingsOnTrails</a>
@@ -33,13 +33,13 @@
         </div>
     </section>
 
-    <!-- Featured Treks -->
     <section class="featured" id="treks">
         <div class="section-title">
             <h2>My Nepal Trekking Journeys</h2>
             <p>From challenging high-altitude passes to serene mountain lakes, explore my adventures across Nepal's legendary trails</p>
         </div>
         <div class="treks-grid">
+
             <!-- Annapurna Circuit -->
             <div class="trek-card">
                 <div class="trek-difficulty">Challenging</div>
@@ -52,7 +52,7 @@
                         <span><i class="fas fa-calendar"></i> Oct 2022</span>
                     </div>
                     <p>Traversing the world's deepest valley and crossing the challenging Thorong La Pass with breathtaking Himalayan vistas.</p>
-                    <a href="annapurna-circuit.html" class="read-more">Read Story <i class="fas fa-arrow-right"></i></a>
+                    <a href="/pages/individual.html" class="read-more">Read Story <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             
@@ -75,7 +75,7 @@
             <!-- Tilicho Lake -->
             <div class="trek-card">
                 <div class="trek-difficulty">Difficult</div>
-                <img src="images/mardi/bg_mardi.JPG" alt="Tilicho Lake" class="trek-img">
+                <img src="/images/ELXV4600.JPG" alt="Tilicho Lake" class="trek-img">
                 <div class="trek-content">
                     <h3>Tilicho Lake Trek</h3>
                     <div class="trek-meta">
@@ -91,7 +91,7 @@
             <!-- Langtang Valley -->
             <div class="trek-card">
                 <div class="trek-difficulty">Moderate</div>
-                <img src="images/mardi/bg_mardi.JPG" alt="Langtang Valley" class="trek-img">
+                <img src="/images/1.JPG" alt="Langtang Valley" class="trek-img">
                 <div class="trek-content">
                     <h3>Langtang Valley Trek</h3>
                     <div class="trek-meta">
@@ -273,7 +273,7 @@
             });
         });
 
-        // Add animation to trek cards on scroll
+        //  animation to trek cards on scroll
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -310,7 +310,6 @@
                         behavior: 'smooth'
                     });
                     
-                    // Close mobile menu if open
                     document.querySelector('.nav-links').classList.remove('active');
                 }
             });
